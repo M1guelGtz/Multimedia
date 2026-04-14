@@ -1,0 +1,14 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(grep -iE \"^cv2$|^numpy$|^PIL$\")",
+      "Bash(pip list:*)",
+      "Bash(multimedia/Scripts/python.exe -c ':*)",
+      "Bash(multimedia/Scripts/pip list:*)",
+      "Bash(ffmpeg -version)",
+      "Bash(where ffmpeg:*)",
+      "Bash(multimedia/Scripts/pip install:*)",
+      "Bash(multimedia/Scripts/python.exe contar_dados.py)"
+    ]
+  }
+}
